@@ -42,3 +42,33 @@ v20.10.0
 
 npm -v
 10.2.5
+
+
+## Run Application
+
+### Frontend
+
+1. Open a terminal and navigate to the `search-engine-frontend` directory:
+    ```bash
+    cd search-engine-frontend
+    ```
+
+2. Start the frontend application:
+    ```bash
+    npm start
+    ```
+
+### Backend
+
+3. Open another terminal.
+
+4. Navigate to the root project directory.
+
+5. Run the Python backend script:
+1st run main.py file for preprocessing then
+
+    ```bash
+    python app.py
+    ```
+
+Now, your application is running with the frontend and backend components in separate terminals.

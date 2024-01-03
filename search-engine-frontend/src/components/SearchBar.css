@@ -1,0 +1,78 @@
+/* src/Search.css */
+
+.search-container {
+background-color: #f2f2f2;
+
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border: 1px solid #dfe1e5; /* Border color */
+  transition: border-color 0.3s; /* Add smooth transition for border color */
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2a66a6;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+/* Change border color on hover */
+.search-bar:hover {
+  border-color: #70757a; /* Adjust the border color on hover */
+}
+
+
+
+.search-results {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  color: #1a0dab; /* Google link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+.summary, .link {
+  font-size: 14px; /* Set the font size for the summary */
+  color: #555; /* Set a darker color for the summary text */
+}
